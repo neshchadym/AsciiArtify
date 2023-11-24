@@ -33,7 +33,8 @@ It can import images from your local Docker daemon into the container runtime ru
 | **Cons** | - Only designed for testing<br>- New versions can have broken features<br>- Networking can be unreliable<br>- Documentation is not always in sync | - Does not have a built-in LoadBalancer, so you'll need to install one manually if you need LoadBalancer services<br>- Does not support Windows containers | - Most legacy components, optional drivers, and plugins are unavailable in K3S<br>- Configures everything automatically; doing custom configuration is difficult and requires good system knowledge |
 
 ## Demo
-![asciicast](https://asciinema.org/a/koz6j0OuWIYomiy0p5UMARDKX)
+![Install K3D](doc/install-k3d.svg)
+
 
 
 
